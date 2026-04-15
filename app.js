@@ -1096,6 +1096,89 @@ cityData.kislovodsk.places = [
   }
 ];
 
+const FIXED_ROUTE_PHOTOS = {
+  "Гора Малое Седло 1325 м": [
+    "https://avatars.mds.yandex.net/get-vh/13303071/2a00000199fb7e85ca3136f3a26c1434b5cc/orig",
+    "https://avatars.mds.yandex.net/get-vh/13740974/2a00000197b7fafc2c41778a8636032ab111/orig",
+    "https://avatars.mds.yandex.net/get-vh/5278262/2a0000019111871a072b21cacfd16e72c4c0/orig"
+  ],
+  "Скала Замок": [
+    "https://avatars.mds.yandex.net/get-altay/6322664/2a0000018fee72fba054de6e41d4e885b0ae/orig",
+    "https://avatars.mds.yandex.net/get-vh/5109306/2a00000191ae9ac43dd52fd916d7a0d267d6/orig",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/%D0%97%D0%B0%D0%BC%D0%BE%D0%BA_%D0%BA%D0%BE%D0%B2%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B0_%D0%B8_%D0%BB%D1%8E%D0%B1%D0%B2%D0%B8_09.JPG/1280px-%D0%97%D0%B0%D0%BC%D0%BE%D0%BA_%D0%BA%D0%BE%D0%B2%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B0_%D0%B8_%D0%BB%D1%8E%D0%B1%D0%B2%D0%B8_09.JPG"
+  ],
+  "Скала Человек": [
+    "https://avatars.mds.yandex.net/get-vh/20337455/2a0000019d908b86f0095942008fac9c3191/orig",
+    "https://avatars.mds.yandex.net/get-vh/13749859/2a000001977a93f16bc2638b9c210dc74c91/orig",
+    "https://avatars.mds.yandex.net/get-vh/15059138/2a000001999fb9f781772f62598819c7ebe1/orig"
+  ],
+  "Храм воздуха": [
+    "https://static-pano.maps.yandex.ru/v1/?panoid=1328676222_783309180_23_1749046036&size=500%2C240&azimuth=-57.7&tilt=10&api_key=maps&signature=KHhTC4yrYwZXg1zWMCWZ0lbP-daHcrg3HDG7183GEDU=",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Kislovodsk_National_Park_2%2C_Kislovodsk%2C_Russia.jpg/1280px-Kislovodsk_National_Park_2%2C_Kislovodsk%2C_Russia.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/%D0%94%D0%BE%D0%BB%D0%B8%D0%BD%D0%B0_%D0%A0%D0%BE%D0%B7_%28%D0%9A%D0%B8%D1%81%D0%BB%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D0%BA%29.JPG/1280px-%D0%94%D0%BE%D0%BB%D0%B8%D0%BD%D0%B0_%D0%A0%D0%BE%D0%B7_%28%D0%9A%D0%B8%D1%81%D0%BB%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D0%BA%29.JPG"
+  ],
+  "Микрогородок": [
+    "https://avatars.mds.yandex.net/get-altay/10175550/2a0000018bbf77abc6794fe3566d3be73fd2/orig",
+    "https://avatars.mds.yandex.net/get-altay/7186075/2a00000184661e99c7d0eb4d0500d0d8fc2c/orig",
+    "https://avatars.mds.yandex.net/get-altay/4437253/2a0000017afbdfeaa31288ffa1347292d754/orig"
+  ],
+  "Скульптурная форма в природном гроте Хозяин гор": [
+    "https://avatars.mds.yandex.net/get-altay/6528051/2a00000188af96250d1b30607d014b0db197/orig",
+    "https://avatars.mds.yandex.net/get-altay/7021598/2a00000187db0fa1195f227b0d145f5091e5/orig",
+    "https://avatars.mds.yandex.net/get-altay/15231053/2a00000196ba35b850135755b6acc4f191fa/orig"
+  ],
+  "Природные гроты": [
+    "https://avatars.mds.yandex.net/get-altay/10175550/2a0000018bbf77abc6794fe3566d3be73fd2/orig",
+    "https://upload.wikimedia.org/wikipedia/commons/e/e7/%D0%9F%D0%BE%D1%85%D0%BE%D0%B4_%D0%BD%D0%B0_%D0%A0%D0%B8%D0%BC-%D0%B3%D0%BE%D1%80%D1%83_%2803%29.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/4/47/%D0%9F%D0%BE%D1%85%D0%BE%D0%B4_%D0%BD%D0%B0_%D0%A0%D0%B8%D0%BC-%D0%B3%D0%BE%D1%80%D1%83_%2844%29.jpg"
+  ],
+  "Долина роз": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/%D0%94%D0%BE%D0%BB%D0%B8%D0%BD%D0%B0_%D0%A0%D0%BE%D0%B7_%28%D0%9A%D0%B8%D1%81%D0%BB%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D0%BA%29.JPG/1280px-%D0%94%D0%BE%D0%BB%D0%B8%D0%BD%D0%B0_%D0%A0%D0%BE%D0%B7_%28%D0%9A%D0%B8%D1%81%D0%BB%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D0%BA%29.JPG",
+    "https://avatars.mds.yandex.net/get-altay/4379646/2a000001904b5ed78f85c4804e49167ebf38/L_height",
+    "https://avatars.mds.yandex.net/get-altay/13590061/2a0000019044d724a0ea547f99bfab281236/L_height"
+  ],
+  "Березовые нарзаны": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Valley_Of_Narzan_2.jpg/1280px-Valley_Of_Narzan_2.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Kislovodsk_National_Park_2%2C_Kislovodsk%2C_Russia.jpg/1280px-Kislovodsk_National_Park_2%2C_Kislovodsk%2C_Russia.jpg",
+    "https://avatars.mds.yandex.net/get-altay/10175550/2a0000018bbf77abc6794fe3566d3be73fd2/orig"
+  ],
+  "Золотые водопады": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/%28e%29%D0%AD%D0%B9%D1%87%D0%BA%D0%B8%D0%B1%D0%B0%D1%88_%28%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%B0_%D0%9A%D0%BE%D0%B7%D1%8B%29.jpg/1280px-%28e%29%D0%AD%D0%B9%D1%87%D0%BA%D0%B8%D0%B1%D0%B0%D1%88_%28%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%B0_%D0%9A%D0%BE%D0%B7%D1%8B%29.jpg",
+    "https://avatars.mds.yandex.net/get-altay/10175550/2a0000018bbf77abc6794fe3566d3be73fd2/orig",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Kislovodsk_National_Park_2%2C_Kislovodsk%2C_Russia.jpg/1280px-Kislovodsk_National_Park_2%2C_Kislovodsk%2C_Russia.jpg"
+  ],
+  "Смотровая площадка": [
+    "https://avatars.mds.yandex.net/get-vh/13303071/2a00000199fb7e85ca3136f3a26c1434b5cc/orig",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Kislovodsk_National_Park_2%2C_Kislovodsk%2C_Russia.jpg/1280px-Kislovodsk_National_Park_2%2C_Kislovodsk%2C_Russia.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/%D0%9A%D0%B0%D1%81%D0%BA%D0%B0%D0%B4%D0%BD%D0%B0%D1%8F_%D0%BB%D0%B5%D1%81%D1%82%D0%BD%D0%B8%D1%86%D0%B0_%D0%9A%D0%B8%D1%81%D0%BB%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D0%BA_%D0%BA%D0%BE%D0%BB%D0%BB%D0%BE%D0%BD%D0%B0%D0%B4%D0%B0.jpg/1280px-%D0%9A%D0%B0%D1%81%D0%BA%D0%B0%D0%B4%D0%BD%D0%B0%D1%8F_%D0%BB%D0%B5%D1%81%D1%82%D0%BD%D0%B8%D1%86%D0%B0_%D0%9A%D0%B8%D1%81%D0%BB%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D0%BA_%D0%BA%D0%BE%D0%BB%D0%BB%D0%BE%D0%BD%D0%B0%D0%B4%D0%B0.jpg"
+  ],
+  "Пещера": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Eichmayerh%C3%B6hle_zur_Wintersonnwende.jpg/1280px-Eichmayerh%C3%B6hle_zur_Wintersonnwende.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/%D0%93%D0%BE%D1%80%D0%B0_%D0%9A%D0%BE%D0%BB%D1%8C%D1%86%D0%BE_%28JK%29.JPG/1280px-%D0%93%D0%BE%D1%80%D0%B0_%D0%9A%D0%BE%D0%BB%D1%8C%D1%86%D0%BE_%28JK%29.JPG",
+    "https://avatars.mds.yandex.net/get-altay/10175550/2a0000018bbf77abc6794fe3566d3be73fd2/orig"
+  ],
+  "Березовское ущелье": [
+    "https://upload.wikimedia.org/wikipedia/commons/e/e7/%D0%9F%D0%BE%D1%85%D0%BE%D0%B4_%D0%BD%D0%B0_%D0%A0%D0%B8%D0%BC-%D0%B3%D0%BE%D1%80%D1%83_%2803%29.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/4/47/%D0%9F%D0%BE%D1%85%D0%BE%D0%B4_%D0%BD%D0%B0_%D0%A0%D0%B8%D0%BC-%D0%B3%D0%BE%D1%80%D1%83_%2844%29.jpg",
+    "https://avatars.mds.yandex.net/get-altay/10175550/2a0000018bbf77abc6794fe3566d3be73fd2/orig"
+  ],
+  "Скальный сектор мыши": [
+    "https://upload.wikimedia.org/wikipedia/commons/e/e7/%D0%9F%D0%BE%D1%85%D0%BE%D0%B4_%D0%BD%D0%B0_%D0%A0%D0%B8%D0%BC-%D0%B3%D0%BE%D1%80%D1%83_%2803%29.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/%D0%97%D0%B0%D0%BC%D0%BE%D0%BA_%D0%BA%D0%BE%D0%B2%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B0_%D0%B8_%D0%BB%D1%8E%D0%B1%D0%B2%D0%B8_09.JPG/1280px-%D0%97%D0%B0%D0%BC%D0%BE%D0%BA_%D0%BA%D0%BE%D0%B2%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B0_%D0%B8_%D0%BB%D1%8E%D0%B1%D0%B2%D0%B8_09.JPG",
+    "https://avatars.mds.yandex.net/get-altay/10175550/2a0000018bbf77abc6794fe3566d3be73fd2/orig"
+  ],
+  "Скала черепаха": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/%D0%93%D0%BE%D1%80%D0%B0_%D0%9A%D0%BE%D0%BB%D1%8C%D1%86%D0%BE_%28JK%29.JPG/1280px-%D0%93%D0%BE%D1%80%D0%B0_%D0%9A%D0%BE%D0%BB%D1%8C%D1%86%D0%BE_%28JK%29.JPG",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/%D0%97%D0%B0%D0%BC%D0%BE%D0%BA_%D0%BA%D0%BE%D0%B2%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B0_%D0%B8_%D0%BB%D1%8E%D0%B1%D0%B2%D0%B8_09.JPG/1280px-%D0%97%D0%B0%D0%BC%D0%BE%D0%BA_%D0%BA%D0%BE%D0%B2%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B0_%D0%B8_%D0%BB%D1%8E%D0%B1%D0%B2%D0%B8_09.JPG",
+    "https://avatars.mds.yandex.net/get-altay/10175550/2a0000018bbf77abc6794fe3566d3be73fd2/orig"
+  ],
+  "Водопад": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/%28e%29%D0%AD%D0%B9%D1%87%D0%BA%D0%B8%D0%B1%D0%B0%D1%88_%28%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%B0_%D0%9A%D0%BE%D0%B7%D1%8B%29.jpg/1280px-%28e%29%D0%AD%D0%B9%D1%87%D0%BA%D0%B8%D0%B1%D0%B0%D1%88_%28%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%B0_%D0%9A%D0%BE%D0%B7%D1%8B%29.jpg",
+    "https://avatars.mds.yandex.net/get-altay/4449685/2a0000018789a2ab1b5726d4bee99339ecf4/L_height",
+    "https://avatars.mds.yandex.net/get-vh/15688477/2a0000019d3a94f3593ade62b5db5b671330/smart_crop_516x290"
+  ]
+};
+
 const markerPresetByKind = {
   route: "islands#blueIcon",
   health: "islands#greenIcon",
@@ -1366,8 +1449,13 @@ function enrichItemsWithPhotos() {
     city.places.forEach((item, index) => {
       item.cityKey = cityKey;
       const primaryPhotos = Array.isArray(item.photos) ? item.photos : [];
-      const backupPhotos = createItemPhotoSet(item, cityName, index);
-      item.photos = [...new Set([...primaryPhotos, ...backupPhotos])].slice(0, PHOTO_VARIANTS_PER_ITEM);
+      if (primaryPhotos.length > 0) {
+        item.photos = [...new Set(primaryPhotos)].slice(0, PHOTO_VARIANTS_PER_ITEM);
+      } else if (item.kind !== "route") {
+        item.photos = createItemPhotoSet(item, cityName, index);
+      } else {
+        item.photos = [];
+      }
     });
 
     city.housing.forEach((item, index) => {
@@ -1376,6 +1464,38 @@ function enrichItemsWithPhotos() {
         item.photos = createItemPhotoSet(item, cityName, city.places.length + index);
       }
     });
+  });
+}
+
+function isYandexUrl(url) {
+  if (typeof url !== "string" || url.length === 0) {
+    return false;
+  }
+
+  try {
+    const host = new URL(url).hostname.toLowerCase();
+    return host.includes("yandex");
+  } catch (_) {
+    return false;
+  }
+}
+
+function applyFixedRoutePhotos() {
+  Object.values(cityData).forEach((city) => {
+    city.places
+      .filter((item) => item.kind === "route")
+      .forEach((item) => {
+        const fixed = FIXED_ROUTE_PHOTOS[item.name];
+        if (Array.isArray(fixed) && fixed.length > 0) {
+          const yandexFixed = fixed.filter((src) => isYandexUrl(src));
+          const existingYandex = (Array.isArray(item.photos) ? item.photos : []).filter((src) => isYandexUrl(src));
+          const nextPhotos = [...new Set([...yandexFixed, ...existingYandex])].slice(0, PHOTO_VARIANTS_PER_ITEM);
+
+          if (nextPhotos.length > 0) {
+            item.photos = nextPhotos;
+          }
+        }
+      });
   });
 }
 
@@ -1794,6 +1914,7 @@ function bootstrapMap() {
   }
 
   enrichItemsWithPhotos();
+  applyFixedRoutePhotos();
   loadYandexMapsApi(apiKey)
     .then(() => {
       ymaps.ready(initMap);
