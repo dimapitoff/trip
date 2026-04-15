@@ -1,13 +1,13 @@
 ﻿const fullTripPlan = [
-  "5 мая (Кисловодск): приезд, заселение, прогулка по Курортному бульвару.",
-  "6 мая (Кисловодск): Нарзанная галерея, Колоннада, нижний парк, Каскадная лестница.",
-  "7 мая (Кисловодск): длинный пеший маршрут до Долины роз.",
-  "8 мая (Кисловодск): маршрут к Красным камням, спокойный треккинг.",
-  "9 мая (Кисловодск): резервный день для центра и парка.",
-  "10 мая (Кисловодск): короткие маршруты по городу, подготовка к переезду.",
-  "11 мая (переезд): выезд в Ессентуки, вечерняя прогулка по Курортному парку.",
-  "12 мая (Ессентуки): источники 4 и 17, грязелечебница, ванны.",
-  "13 мая (Ессентуки): короткая прогулка и выезд."
+  "5 мая (Кисловодск): приезд, заселение, легкая прогулка по Курортному бульвару, Нарзанной галерее и Колоннаде.",
+  "6 мая (Кисловодск): Маршрут A (без возвратов) - Гора Малое Седло 1325 м, Скала Замок, Скала Человек, Микрогородок, Хозяин гор, Природные гроты, Храм воздуха, Долина роз.",
+  "7 мая (Кисловодск): Маршрут C: Березовское ущелье - Березовское ущелье, Скальный сектор мыши, Скала черепаха, Водопад.",
+  "8 мая (Кисловодск): спокойный день в парке - Храм воздуха и Долина роз, короткие радиальные выходы без длинных переходов.",
+  "9 мая (Кисловодск): Маршрут B (без возвратов) - Золотые водопады, Березовые нарзаны, Смотровая площадка, Пещера.",
+  "10 мая (Кисловодск): резерв на погоду и повтор любимых точек, вечерняя подготовка к переезду.",
+  "11 мая (переезд в Ессентуки): выезд из Кисловодска, заселение, прогулка по курортной зоне и вечер в санатории \"Источник\".",
+  "12 мая (Ессентуки): оздоровительный день - бальнеогрязелечебница (Николаевские ванны), санаторий \"Истокъ\" и прогулка по центру.",
+  "13 мая (Ессентуки): короткий утренний выезд в термы (Суворовский источник № 1 или Машук Аква-Терм), затем сборы и отъезд."
 ];
 
 const cityData = {
@@ -837,6 +837,265 @@ const cityData = {
   }
 };
 
+cityData.kislovodsk.places = [
+  {
+    name: "Гора Малое Седло 1325 м",
+    coords: [43.885328, 42.767479],
+    kind: "route",
+    note: "Единственная достопримечательность Кисловодска на карте по вашему запросу.",
+    routeType: "Природная достопримечательность",
+    visitTime: "60-120 мин",
+    bestTime: "День",
+    dayHint: "Кисловодск",
+    mapUrl: "https://yandex.ru/maps/org/gora_maloye_sedlo_1325_m/201170928739/",
+    photos: [
+      "https://avatars.mds.yandex.net/get-vh/13303071/2a00000199fb7e85ca3136f3a26c1434b5cc/orig",
+      "https://avatars.mds.yandex.net/get-vh/13740974/2a00000197b7fafc2c41778a8636032ab111/orig",
+      "https://avatars.mds.yandex.net/get-vh/5278262/2a0000019111871a072b21cacfd16e72c4c0/orig"
+    ]
+  },
+  {
+    name: "Скала Замок",
+    coords: [43.885913, 42.767389],
+    kind: "route",
+    note: "Горная вершина: Ставропольский край, Кисловодск, Кисловодский национальный парк.",
+    routeType: "Горная вершина",
+    visitTime: "30-60 мин",
+    bestTime: "День",
+    dayHint: "Кисловодск",
+    mapUrl: "https://yandex.ru/maps/org/skala_zamok/99142338165/",
+    photos: [
+      "https://avatars.mds.yandex.net/get-altay/6322664/2a0000018fee72fba054de6e41d4e885b0ae/orig",
+      "https://avatars.mds.yandex.net/get-vh/5109306/2a00000191ae9ac43dd52fd916d7a0d267d6/orig",
+      "https://static-pano.maps.yandex.ru/v1/?panoid=1328859377_783407451_23_1686391990&size=500%2C240&azimuth=-0.9&tilt=10&api_key=maps&signature=6jBKF0gD8FG584gHRxs2mzJx54OEdWZECL2nrGsXs_E="
+    ]
+  },
+  {
+    name: "Скала Человек",
+    coords: [43.888966, 42.75413],
+    kind: "route",
+    note: "Горная вершина: Ставропольский край, Кисловодск, Кисловодский национальный парк.",
+    routeType: "Горная вершина",
+    visitTime: "30-60 мин",
+    bestTime: "День",
+    dayHint: "Кисловодск",
+    mapUrl: "https://yandex.ru/maps/org/skala_chelovek/101380776544/",
+    photos: [
+      "https://avatars.mds.yandex.net/get-vh/20337455/2a0000019d908b86f0095942008fac9c3191/orig",
+      "https://avatars.mds.yandex.net/get-vh/13749859/2a000001977a93f16bc2638b9c210dc74c91/orig",
+      "https://avatars.mds.yandex.net/get-vh/15059138/2a000001999fb9f781772f62598819c7ebe1/orig"
+    ]
+  },
+  {
+    name: "Храм воздуха",
+    coords: [43.896172, 42.740535],
+    kind: "route",
+    note: "Популярная обзорная площадка Кисловодского национального парка.",
+    routeType: "Смотровая точка",
+    visitTime: "20-40 мин",
+    bestTime: "Светлое время дня",
+    dayHint: "Кисловодск",
+    mapUrl: "https://yandex.ru/maps/?text=%D0%A5%D1%80%D0%B0%D0%BC%20%D0%B2%D0%BE%D0%B7%D0%B4%D1%83%D1%85%D0%B0%20%D0%9A%D0%B8%D1%81%D0%BB%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D0%BA",
+    photos: [
+      "https://static-pano.maps.yandex.ru/v1/?panoid=1328676222_783309180_23_1749046036&size=500%2C240&azimuth=-57.7&tilt=10&api_key=maps&signature=KHhTC4yrYwZXg1zWMCWZ0lbP-daHcrg3HDG7183GEDU=",
+      "https://avatars.mds.yandex.net/get-altay/4379646/2a000001904b5ed78f85c4804e49167ebf38/L_height",
+      "https://avatars.mds.yandex.net/get-vh/15386257/2a00000198bd744a4ef91065782d16dfc60e/smart_crop_516x290"
+    ]
+  },
+  {
+    name: "Микрогородок",
+    coords: [43.893358, 42.760487],
+    kind: "route",
+    note: "Достопримечательность: Ставропольский край, Кисловодск, Кисловодский национальный парк.",
+    routeType: "Достопримечательность",
+    visitTime: "20-40 мин",
+    bestTime: "День",
+    dayHint: "Кисловодск",
+    mapUrl: "https://yandex.ru/maps/?text=%D0%9C%D0%B8%D0%BA%D1%80%D0%BE%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%BE%D0%BA%20%D0%9A%D0%B8%D1%81%D0%BB%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D0%BA%20%D0%9A%D0%B8%D1%81%D0%BB%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%BF%D0%B0%D1%80%D0%BA",
+    photos: [
+      "https://avatars.mds.yandex.net/get-altay/10175550/2a0000018bbf77abc6794fe3566d3be73fd2/orig",
+      "https://avatars.mds.yandex.net/get-altay/7186075/2a00000184661e99c7d0eb4d0500d0d8fc2c/orig",
+      "https://avatars.mds.yandex.net/get-altay/4437253/2a0000017afbdfeaa31288ffa1347292d754/orig"
+    ]
+  },
+  {
+    name: "Скульптурная форма в природном гроте Хозяин гор",
+    coords: [43.894755, 42.755783],
+    kind: "route",
+    note: "Жанровая скульптура: Ставропольский край, городской округ Кисловодск. Точка привязана к ближайшему подтвержденному месту на тропе Косыгина.",
+    routeType: "Жанровая скульптура",
+    visitTime: "20-40 мин",
+    bestTime: "День",
+    dayHint: "Кисловодск",
+    mapUrl: "https://yandex.ru/maps/org/skulpturnaya_forma_v_prirodnom_grote_khozyain_gor/231974339539/",
+    photos: [
+      "https://avatars.mds.yandex.net/get-altay/6528051/2a00000188af96250d1b30607d014b0db197/orig",
+      "https://avatars.mds.yandex.net/get-altay/7021598/2a00000187db0fa1195f227b0d145f5091e5/orig",
+      "https://avatars.mds.yandex.net/get-altay/15231053/2a00000196ba35b850135755b6acc4f191fa/orig"
+    ]
+  },
+  {
+    name: "Природные гроты",
+    coords: [43.897948, 42.755096],
+    kind: "route",
+    note: "Природная достопримечательность в Кисловодском национальном парке.",
+    routeType: "Природа",
+    visitTime: "30-60 мин",
+    bestTime: "День",
+    dayHint: "Кисловодск",
+    mapUrl: "https://yandex.ru/maps/?ll=42.755096%2C43.897948&z=16",
+    photos: [
+      "https://avatars.mds.yandex.net/get-altay/10175550/2a0000018bbf77abc6794fe3566d3be73fd2/orig",
+      "https://avatars.mds.yandex.net/get-altay/7186075/2a00000184661e99c7d0eb4d0500d0d8fc2c/orig",
+      "https://avatars.mds.yandex.net/get-altay/4437253/2a0000017afbdfeaa31288ffa1347292d754/orig"
+    ]
+  },
+  {
+    name: "Долина роз",
+    coords: [43.895481, 42.73863],
+    kind: "route",
+    note: "Одна из самых популярных природных локаций Кисловодского национального парка.",
+    routeType: "Природа",
+    visitTime: "40-90 мин",
+    bestTime: "День",
+    dayHint: "Кисловодск",
+    mapUrl: "https://yandex.ru/maps/?ll=42.738630%2C43.895481&z=16",
+    photos: [
+      "https://avatars.mds.yandex.net/get-altay/4379646/2a000001904b5ed78f85c4804e49167ebf38/L_height",
+      "https://avatars.mds.yandex.net/get-vh/15386257/2a00000198bd744a4ef91065782d16dfc60e/smart_crop_516x290",
+      "https://avatars.mds.yandex.net/get-altay/13590061/2a0000019044d724a0ea547f99bfab281236/L_height"
+    ]
+  },
+  {
+    name: "Березовые нарзаны",
+    coords: [43.849738, 42.644959],
+    kind: "route",
+    note: "Природная локация в районе Кисловодска.",
+    routeType: "Природа",
+    visitTime: "30-60 мин",
+    bestTime: "День",
+    dayHint: "Кисловодск",
+    mapUrl: "https://yandex.ru/maps/?ll=42.644959%2C43.849738&z=15",
+    photos: [
+      "https://avatars.mds.yandex.net/get-altay/10175550/2a0000018bbf77abc6794fe3566d3be73fd2/orig",
+      "https://avatars.mds.yandex.net/get-altay/7186075/2a00000184661e99c7d0eb4d0500d0d8fc2c/orig",
+      "https://avatars.mds.yandex.net/get-altay/4437253/2a0000017afbdfeaa31288ffa1347292d754/orig"
+    ]
+  },
+  {
+    name: "Золотые водопады",
+    coords: [43.837492, 42.621632],
+    kind: "route",
+    note: "Природная достопримечательность в окрестностях Кисловодска.",
+    routeType: "Водопад",
+    visitTime: "40-90 мин",
+    bestTime: "День",
+    dayHint: "Кисловодск",
+    mapUrl: "https://yandex.ru/maps/?ll=42.621632%2C43.837492&z=15",
+    photos: [
+      "https://avatars.mds.yandex.net/get-altay/10175550/2a0000018bbf77abc6794fe3566d3be73fd2/orig",
+      "https://avatars.mds.yandex.net/get-altay/7186075/2a00000184661e99c7d0eb4d0500d0d8fc2c/orig",
+      "https://avatars.mds.yandex.net/get-altay/4437253/2a0000017afbdfeaa31288ffa1347292d754/orig"
+    ]
+  },
+  {
+    name: "Смотровая площадка",
+    coords: [43.857338, 42.651398],
+    kind: "route",
+    note: "Видовая точка в окрестностях Кисловодска.",
+    routeType: "Смотровая точка",
+    visitTime: "20-40 мин",
+    bestTime: "День",
+    dayHint: "Кисловодск",
+    mapUrl: "https://yandex.ru/maps/?ll=42.651398%2C43.857338&z=15",
+    photos: [
+      "https://avatars.mds.yandex.net/get-vh/13303071/2a00000199fb7e85ca3136f3a26c1434b5cc/orig",
+      "https://avatars.mds.yandex.net/get-vh/13740974/2a00000197b7fafc2c41778a8636032ab111/orig",
+      "https://avatars.mds.yandex.net/get-vh/5278262/2a0000019111871a072b21cacfd16e72c4c0/orig"
+    ]
+  },
+  {
+    name: "Пещера",
+    coords: [43.87322, 42.634864],
+    kind: "route",
+    note: "Природная пещера в окрестностях Кисловодска.",
+    routeType: "Пещера",
+    visitTime: "30-60 мин",
+    bestTime: "День",
+    dayHint: "Кисловодск",
+    mapUrl: "https://yandex.ru/maps/?ll=42.634864%2C43.873220&z=15",
+    photos: [
+      "https://avatars.mds.yandex.net/get-altay/10175550/2a0000018bbf77abc6794fe3566d3be73fd2/orig",
+      "https://avatars.mds.yandex.net/get-altay/7186075/2a00000184661e99c7d0eb4d0500d0d8fc2c/orig",
+      "https://avatars.mds.yandex.net/get-altay/4437253/2a0000017afbdfeaa31288ffa1347292d754/orig"
+    ]
+  },
+  {
+    name: "Березовское ущелье",
+    coords: [43.884809, 42.698391],
+    kind: "route",
+    note: "Точка маршрута по Березовскому ущелью.",
+    routeType: "Ущелье",
+    visitTime: "20-40 мин",
+    bestTime: "День",
+    dayHint: "Кисловодск",
+    mapUrl: "https://yandex.ru/maps/?ll=42.698391%2C43.884809&z=16",
+    photos: [
+      "https://avatars.mds.yandex.net/get-altay/10175550/2a0000018bbf77abc6794fe3566d3be73fd2/orig",
+      "https://avatars.mds.yandex.net/get-altay/7186075/2a00000184661e99c7d0eb4d0500d0d8fc2c/orig",
+      "https://avatars.mds.yandex.net/get-altay/4437253/2a0000017afbdfeaa31288ffa1347292d754/orig"
+    ]
+  },
+  {
+    name: "Скальный сектор мыши",
+    coords: [43.886022, 42.700412],
+    kind: "route",
+    note: "Скальный участок маршрута в районе Березовского ущелья.",
+    routeType: "Скальный сектор",
+    visitTime: "20-40 мин",
+    bestTime: "День",
+    dayHint: "Кисловодск",
+    mapUrl: "https://yandex.ru/maps/?ll=42.700412%2C43.886022&z=16",
+    photos: [
+      "https://avatars.mds.yandex.net/get-altay/10175550/2a0000018bbf77abc6794fe3566d3be73fd2/orig",
+      "https://avatars.mds.yandex.net/get-altay/7186075/2a00000184661e99c7d0eb4d0500d0d8fc2c/orig",
+      "https://avatars.mds.yandex.net/get-altay/4437253/2a0000017afbdfeaa31288ffa1347292d754/orig"
+    ]
+  },
+  {
+    name: "Скала черепаха",
+    coords: [43.891425, 42.707743],
+    kind: "route",
+    note: "Скальная видовая точка на тропе маршрута.",
+    routeType: "Скала",
+    visitTime: "20-40 мин",
+    bestTime: "День",
+    dayHint: "Кисловодск",
+    mapUrl: "https://yandex.ru/maps/?ll=42.707743%2C43.891425&z=16",
+    photos: [
+      "https://avatars.mds.yandex.net/get-altay/10175550/2a0000018bbf77abc6794fe3566d3be73fd2/orig",
+      "https://avatars.mds.yandex.net/get-altay/7186075/2a00000184661e99c7d0eb4d0500d0d8fc2c/orig",
+      "https://avatars.mds.yandex.net/get-altay/4437253/2a0000017afbdfeaa31288ffa1347292d754/orig"
+    ]
+  },
+  {
+    name: "Водопад",
+    coords: [43.893567, 42.711672],
+    kind: "route",
+    note: "Финальная точка маршрута по ущелью.",
+    routeType: "Водопад",
+    visitTime: "30-60 мин",
+    bestTime: "День",
+    dayHint: "Кисловодск",
+    mapUrl: "https://yandex.ru/maps/?ll=42.711672%2C43.893567&z=16",
+    photos: [
+      "https://avatars.mds.yandex.net/get-altay/10175550/2a0000018bbf77abc6794fe3566d3be73fd2/orig",
+      "https://avatars.mds.yandex.net/get-altay/7186075/2a00000184661e99c7d0eb4d0500d0d8fc2c/orig",
+      "https://avatars.mds.yandex.net/get-altay/4437253/2a0000017afbdfeaa31288ffa1347292d754/orig"
+    ]
+  }
+];
+
 const markerPresetByKind = {
   route: "islands#blueIcon",
   health: "islands#greenIcon",
@@ -989,12 +1248,67 @@ const cityRouteTracks = {
   ]
 };
 
+cityRouteTracks.kislovodsk = [
+  {
+    id: "kisl-custom-route-1",
+    title: "Маршрут A: Парк, гроты и скалы (без возвратов)",
+    length: "4,0 км",
+    duration: "1 ч - 1 ч 25 мин",
+    difficulty: "Средний",
+    color: "#0ea5e9",
+    pointNames: [
+      "Гора Малое Седло 1325 м",
+      "Скала Замок",
+      "Скала Человек",
+      "Микрогородок",
+      "Скульптурная форма в природном гроте Хозяин гор",
+      "Природные гроты",
+      "Храм воздуха",
+      "Долина роз"
+    ]
+  },
+  {
+    id: "kisl-custom-route-2",
+    title: "Маршрут B: Нарзаны, пещера и водопады (без возвратов)",
+    length: "5,5 км",
+    duration: "1 ч 20 мин - 1 ч 50 мин",
+    difficulty: "Средний",
+    color: "#f97316",
+    pointNames: [
+      "Золотые водопады",
+      "Березовые нарзаны",
+      "Смотровая площадка",
+      "Пещера"
+    ]
+  },
+  {
+    id: "kisl-custom-route-3",
+    title: "Маршрут C: Березовское ущелье",
+    length: "1,5 км",
+    duration: "25-35 мин",
+    difficulty: "Легкий",
+    color: "#22c55e",
+    pointNames: [
+      "Березовское ущелье",
+      "Скальный сектор мыши",
+      "Скала черепаха",
+      "Водопад"
+    ]
+  }
+];
+
 let mapInstance;
 let currentCityKey = "kislovodsk";
 let activeObjects = [];
 let activeTrackObjects = [];
 let activeKinds = new Set(["route", "health", "housing"]);
 let activeRouteTrackIds = new Set();
+const PRIMARY_HOTEL_NAME = "Яндекс Путешествия: Вверх";
+let showOtherHotels = false;
+
+function isPrimaryHotel(item) {
+  return item.kind === "housing" && item.name === PRIMARY_HOTEL_NAME;
+}
 
 function stripProviderPrefix(name) {
   return name.replace(/^(Yandex Travel|Яндекс Путешествия):\s*/u, "").trim();
@@ -1089,7 +1403,25 @@ function applyFilterKinds(kinds, filterInputs) {
 }
 
 function getFilteredItems(city) {
-  return [...city.places, ...city.housing].filter((item) => activeKinds.has(item.kind));
+  return [...city.places, ...city.housing].filter((item) => {
+    if (!activeKinds.has(item.kind)) {
+      return false;
+    }
+
+    if (item.kind !== "housing") {
+      return true;
+    }
+
+    if (currentCityKey !== "kislovodsk") {
+      return true;
+    }
+
+    if (isPrimaryHotel(item)) {
+      return true;
+    }
+
+    return showOtherHotels;
+  });
 }
 
 function createPlacemark(item) {
@@ -1120,6 +1452,10 @@ function createPlacemark(item) {
     details.push(`<div><strong>Лучшее время:</strong> ${item.bestTime || "днем"}</div>`);
     details.push(`<div><strong>Длительность:</strong> ${item.visitTime || "60-120 мин"}</div>`);
     details.push(`<div><strong>День маршрута:</strong> ${item.dayHint || "по плану"}</div>`);
+  }
+
+  if (item.mapUrl) {
+    details.push(`<div><a href="${item.mapUrl}" target="_blank" rel="noopener noreferrer">Открыть карточку в Яндекс Картах</a></div>`);
   }
 
   return new ymaps.Placemark(
@@ -1217,21 +1553,33 @@ function renderRouteTracks(cityKey, city) {
       return;
     }
 
-    const polyline = new ymaps.Polyline(
-      coords,
+    const multiRoute = new ymaps.multiRouter.MultiRoute(
       {
-        hintContent: track.title,
-        balloonContent: `${track.title}<br>${track.length}, ${track.duration}, ${track.difficulty}`
+        referencePoints: coords,
+        params: {
+          routingMode: "pedestrian"
+        }
       },
       {
-        strokeColor: track.color,
-        strokeWidth: 5,
-        strokeOpacity: 0.85
+        boundsAutoApply: false,
+        wayPointVisible: false,
+        viaPointVisible: false,
+        routeActiveStrokeColor: track.color,
+        routeActiveStrokeWidth: 5,
+        routeActiveStrokeOpacity: 0.85,
+        routeStrokeColor: track.color,
+        routeStrokeWidth: 5,
+        routeStrokeOpacity: 0.75
       }
     );
 
-    mapInstance.geoObjects.add(polyline);
-    activeTrackObjects.push(polyline);
+    multiRoute.properties.set({
+      hintContent: track.title,
+      balloonContent: `${track.title}<br>${track.length}, ${track.duration}, ${track.difficulty}`
+    });
+
+    mapInstance.geoObjects.add(multiRoute);
+    activeTrackObjects.push(multiRoute);
   });
 }
 
@@ -1258,8 +1606,10 @@ function renderMap(cityKey) {
   renderRouteTrackLegend(cityKey);
   renderRouteTracks(cityKey, city);
 
-  const visibleInterestItems = filteredItems.filter((item) => item.kind === "route" || item.kind === "health");
-  const interestItems = visibleInterestItems.length > 0 ? visibleInterestItems : city.places;
+  const visibleInterestItems = filteredItems.filter(
+    (item) => item.kind === "route" || item.kind === "health" || item.kind === "housing"
+  );
+  const interestItems = visibleInterestItems.length > 0 ? visibleInterestItems : [...city.places, ...city.housing];
   const trackPoints = getActiveTrackPoints(cityKey, city);
   const boundsPoints = [...interestItems.map((item) => item.coords), ...trackPoints];
 
@@ -1330,6 +1680,19 @@ function initTabs() {
   });
 }
 
+function initHotelToggle() {
+  const toggleButton = document.getElementById("toggle-other-hotels");
+  if (!toggleButton) {
+    return;
+  }
+
+  toggleButton.addEventListener("click", () => {
+    showOtherHotels = !showOtherHotels;
+    toggleButton.setAttribute("aria-pressed", String(showOtherHotels));
+    renderMap(currentCityKey);
+  });
+}
+
 function initRouteTrackLegend() {
   const container = document.getElementById("route-tracks");
   const legend = document.querySelector(".route-legend");
@@ -1384,7 +1747,60 @@ function initMap() {
   renderMap(currentCityKey);
   initTabs();
   initFilters();
+  initHotelToggle();
 }
 
-enrichItemsWithPhotos();
-ymaps.ready(initMap);
+function getYandexMapsApiKey() {
+  return (window.YANDEX_MAPS_API_KEY || "").trim();
+}
+
+function showMapBootstrapError(message) {
+  const mapNode = document.getElementById("map");
+  if (!mapNode) {
+    return;
+  }
+
+  mapNode.innerHTML = `<div style="display:flex;align-items:center;justify-content:center;height:100%;padding:1rem;text-align:center;font-family:'Montserrat Alternates','Trebuchet MS',sans-serif;color:#7f1d1d;background:#fef2f2;border:1px solid #fecaca;">${message}</div>`;
+}
+
+function loadYandexMapsApi(apiKey) {
+  return new Promise((resolve, reject) => {
+    if (window.ymaps) {
+      resolve(window.ymaps);
+      return;
+    }
+
+    const script = document.createElement("script");
+    script.src = `https://api-maps.yandex.ru/2.1/?lang=ru_RU&apikey=${encodeURIComponent(apiKey)}`;
+    script.async = true;
+    script.onload = () => {
+      if (window.ymaps) {
+        resolve(window.ymaps);
+      } else {
+        reject(new Error("API загружено, но объект ymaps не найден"));
+      }
+    };
+    script.onerror = () => reject(new Error("Не удалось загрузить API Яндекс Карт"));
+
+    document.head.appendChild(script);
+  });
+}
+
+function bootstrapMap() {
+  const apiKey = getYandexMapsApiKey();
+  if (!apiKey) {
+    showMapBootstrapError("Укажите API-ключ в файле config.local.js: window.YANDEX_MAPS_API_KEY = \"ваш_ключ\";");
+    return;
+  }
+
+  enrichItemsWithPhotos();
+  loadYandexMapsApi(apiKey)
+    .then(() => {
+      ymaps.ready(initMap);
+    })
+    .catch((error) => {
+      showMapBootstrapError(`Ошибка загрузки карты: ${error.message}`);
+    });
+}
+
+bootstrapMap();
