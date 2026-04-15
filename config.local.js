@@ -1,0 +1,1 @@
+window.YANDEX_MAPS_API_KEY = "ee561e02-2258-47d3-8482-b29abc28e6c1";
