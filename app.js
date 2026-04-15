@@ -303,6 +303,21 @@ const cityData = {
         ]
       },
       {
+        name: "Гора Кольцо 871 м",
+        coords: [43.9415116, 42.6936836],
+        kind: "route",
+        note: "Место из подборки тропинок: природная арка и смотровая точка в окрестностях Кисловодска.",
+        routeType: "Скальная достопримечательность",
+        visitTime: "30-60 мин",
+        bestTime: "День",
+        dayHint: "Подборка Яндекс Карт",
+        photos: [
+          "https://static-maps.yandex.ru/1.x/?ll=42.6936836,43.9415116&z=14&size=520,290&l=map&pt=42.6936836,43.9415116,pm2blm",
+          "https://static-maps.yandex.ru/1.x/?ll=42.6936836,43.9415116&z=13&size=520,290&l=sat&pt=42.6936836,43.9415116,pm2blm",
+          "https://static-maps.yandex.ru/1.x/?ll=42.6936836,43.9415116&z=15&size=520,290&l=sat,skl&pt=42.6936836,43.9415116,pm2blm"
+        ]
+      },
+      {
         name: "Гора Малое Седло",
         coords: [43.92865, 42.74115],
         kind: "route",
@@ -345,6 +360,171 @@ const cityData = {
           "https://avatars.mds.yandex.net/get-altay/13078542/2a0000018fab840d0532e1af58e781f18462/L_height",
           "https://avatars.mds.yandex.net/get-vh/15247478/2a0000019cc419102c540d6142869db6b393/smart_crop_516x290",
           "https://avatars.mds.yandex.net/get-altay/16105091/2a00000196c069c79eb65c07c35b3dfb2f95/L_height"
+        ]
+      },
+      {
+        name: "Вход в Березовскую балку (Березовская, 34)",
+        coords: [43.8937966, 42.7115004],
+        kind: "route",
+        note: "Старт маршрута из статьи: вход в Березовскую балку у дома 34 по Березовской улице.",
+        routeType: "Точка старта",
+        visitTime: "10-15 мин",
+        bestTime: "Утро",
+        dayHint: "Маршрут Березовская балка",
+        photos: [
+          "https://static-maps.yandex.ru/1.x/?ll=42.7115004,43.8937966&z=15&size=520,290&l=map&pt=42.7115004,43.8937966,pm2blm",
+          "https://static-maps.yandex.ru/1.x/?ll=42.7115004,43.8937966&z=13&size=520,290&l=sat&pt=42.7115004,43.8937966,pm2blm",
+          "https://static-maps.yandex.ru/1.x/?ll=42.7115004,43.8937966&z=14&size=520,290&l=sat,skl&pt=42.7115004,43.8937966,pm2blm"
+        ]
+      },
+      {
+        name: "Березовское ущелье (верхний участок)",
+        coords: [43.8856143, 42.6997083],
+        kind: "route",
+        note: "Живописный участок Березовского ущелья по пути к Фестивальной поляне и Золотым водопадам.",
+        routeType: "Ущелье",
+        visitTime: "40-60 мин",
+        bestTime: "День",
+        dayHint: "Маршрут Березовская балка",
+        photos: [
+          "https://static-maps.yandex.ru/1.x/?ll=42.6997083,43.8856143&z=14&size=520,290&l=map&pt=42.6997083,43.8856143,pm2blm",
+          "https://static-maps.yandex.ru/1.x/?ll=42.6997083,43.8856143&z=13&size=520,290&l=sat&pt=42.6997083,43.8856143,pm2blm",
+          "https://static-maps.yandex.ru/1.x/?ll=42.6997083,43.8856143&z=15&size=520,290&l=sat,skl&pt=42.6997083,43.8856143,pm2blm"
+        ]
+      },
+      {
+        name: "Березовское ущелье (средний участок)",
+        coords: [43.8682282, 42.6714233],
+        kind: "route",
+        note: "Средний участок маршрута по дну балки с выходом к удаленным видовым точкам.",
+        routeType: "Ущелье",
+        visitTime: "60-90 мин",
+        bestTime: "День",
+        dayHint: "Маршрут Березовская балка",
+        photos: [
+          "https://static-maps.yandex.ru/1.x/?ll=42.6714233,43.8682282&z=13&size=520,290&l=map&pt=42.6714233,43.8682282,pm2blm",
+          "https://static-maps.yandex.ru/1.x/?ll=42.6714233,43.8682282&z=12&size=520,290&l=sat&pt=42.6714233,43.8682282,pm2blm",
+          "https://static-maps.yandex.ru/1.x/?ll=42.6714233,43.8682282&z=14&size=520,290&l=sat,skl&pt=42.6714233,43.8682282,pm2blm"
+        ]
+      },
+      {
+        name: "Элькуш (старт альтернативного спуска)",
+        coords: [43.8634135, 42.6446145],
+        kind: "route",
+        note: "Поселок Элькуш в статье указан как удобная точка для сокращенного варианта маршрута.",
+        routeType: "Транспортная точка",
+        visitTime: "15-20 мин",
+        bestTime: "Утро",
+        dayHint: "Маршрут Березовская балка",
+        photos: [
+          "https://static-maps.yandex.ru/1.x/?ll=42.6446145,43.8634135&z=12&size=520,290&l=map&pt=42.6446145,43.8634135,pm2blm",
+          "https://static-maps.yandex.ru/1.x/?ll=42.6446145,43.8634135&z=11&size=520,290&l=sat&pt=42.6446145,43.8634135,pm2blm",
+          "https://static-maps.yandex.ru/1.x/?ll=42.6446145,43.8634135&z=13&size=520,290&l=sat,skl&pt=42.6446145,43.8634135,pm2blm"
+        ]
+      },
+      {
+        name: "Кичи-Балык (дорога к водопадам)",
+        coords: [43.7905973, 42.6507536],
+        kind: "route",
+        note: "Опорная точка дороги Элькуш - Кичи-Балык для выхода к дальним участкам Березовского маршрута.",
+        routeType: "Опорная точка",
+        visitTime: "20-30 мин",
+        bestTime: "День",
+        dayHint: "Маршрут Березовская балка",
+        photos: [
+          "https://static-maps.yandex.ru/1.x/?ll=42.6507536,43.7905973&z=11&size=520,290&l=map&pt=42.6507536,43.7905973,pm2blm",
+          "https://static-maps.yandex.ru/1.x/?ll=42.6507536,43.7905973&z=10&size=520,290&l=sat&pt=42.6507536,43.7905973,pm2blm",
+          "https://static-maps.yandex.ru/1.x/?ll=42.6507536,43.7905973&z=12&size=520,290&l=sat,skl&pt=42.6507536,43.7905973,pm2blm"
+        ]
+      },
+      {
+        name: "Лермонтовская скала",
+        coords: [43.868622, 42.737889],
+        kind: "route",
+        note: "Ключевая точка маршрута по Ольховской балке из статьи.",
+        routeType: "Скальная достопримечательность",
+        visitTime: "40-60 мин",
+        bestTime: "День",
+        dayHint: "Маршрут Ольховская балка",
+        photos: [
+          "https://static-maps.yandex.ru/1.x/?ll=42.737889,43.868622&z=14&size=520,290&l=map&pt=42.737889,43.868622,pm2blm",
+          "https://static-maps.yandex.ru/1.x/?ll=42.737889,43.868622&z=13&size=520,290&l=sat&pt=42.737889,43.868622,pm2blm",
+          "https://static-maps.yandex.ru/1.x/?ll=42.737889,43.868622&z=15&size=520,290&l=sat,skl&pt=42.737889,43.868622,pm2blm"
+        ]
+      },
+      {
+        name: "Посёлок Нарзанный",
+        coords: [43.863559, 42.754472],
+        kind: "route",
+        note: "Рекомендуемая стартовая точка маршрута по Ольховской балке.",
+        routeType: "Точка старта",
+        visitTime: "10-15 мин",
+        bestTime: "Утро",
+        dayHint: "Маршрут Ольховская балка",
+        photos: [
+          "https://static-maps.yandex.ru/1.x/?ll=42.754472,43.863559&z=14&size=520,290&l=map&pt=42.754472,43.863559,pm2blm",
+          "https://static-maps.yandex.ru/1.x/?ll=42.754472,43.863559&z=13&size=520,290&l=sat&pt=42.754472,43.863559,pm2blm",
+          "https://static-maps.yandex.ru/1.x/?ll=42.754472,43.863559&z=15&size=520,290&l=sat,skl&pt=42.754472,43.863559,pm2blm"
+        ]
+      },
+      {
+        name: "Лермонтовский водопад",
+        coords: [43.8837089, 42.7235542],
+        kind: "route",
+        note: "Водопад на реке Ольховка, который статья включает в основной пешеходный проход.",
+        routeType: "Водопад",
+        visitTime: "20-35 мин",
+        bestTime: "День",
+        dayHint: "Маршрут Ольховская балка",
+        photos: [
+          "https://static-pano.maps.yandex.ru/v1/?panoid=1328596676_783413895_23_1748175799&size=500%2C240&azimuth=172.8&tilt=10&api_key=maps&signature=eIwUBRvqolqSGZWR_U7kvJ3kSINPe54YToYQoeToj6A=",
+          "https://avatars.mds.yandex.net/get-altay/4449685/2a0000018789a2ab1b5726d4bee99339ecf4/L_height",
+          "https://avatars.mds.yandex.net/get-vh/15688477/2a0000019d3a94f3593ade62b5db5b671330/smart_crop_516x290"
+        ]
+      },
+      {
+        name: "Станция Подкумок",
+        coords: [43.9614421, 42.7712014],
+        kind: "route",
+        note: "Стартовая точка маршрута к Подкумскому провалу и Спящей красавице.",
+        routeType: "Транспортная точка",
+        visitTime: "10-15 мин",
+        bestTime: "Утро",
+        dayHint: "Маршрут Спящая красавица",
+        photos: [
+          "https://static-maps.yandex.ru/1.x/?ll=42.7712014,43.9614421&z=14&size=520,290&l=map&pt=42.7712014,43.9614421,pm2blm",
+          "https://static-maps.yandex.ru/1.x/?ll=42.7712014,43.9614421&z=13&size=520,290&l=sat&pt=42.7712014,43.9614421,pm2blm",
+          "https://static-maps.yandex.ru/1.x/?ll=42.7712014,43.9614421&z=15&size=520,290&l=sat,skl&pt=42.7712014,43.9614421,pm2blm"
+        ]
+      },
+      {
+        name: "Пещера Подкумский провал",
+        coords: [43.9746676, 42.7612704],
+        kind: "route",
+        note: "Ключевой объект маршрута из статьи: пещера в районе Подкумка.",
+        routeType: "Пещера",
+        visitTime: "25-40 мин",
+        bestTime: "День",
+        dayHint: "Маршрут Спящая красавица",
+        photos: [
+          "https://avatars.mds.yandex.net/get-altay/11732311/2a0000018cfe4e8f36401accf599ef9c30be/L_height",
+          "https://static-maps.yandex.ru/1.x/?ll=42.7612704,43.9746676&z=14&size=520,290&l=map&pt=42.7612704,43.9746676,pm2blm",
+          "https://static-maps.yandex.ru/1.x/?ll=42.7612704,43.9746676&z=13&size=520,290&l=sat&pt=42.7612704,43.9746676,pm2blm"
+        ]
+      },
+      {
+        name: "Боргустанский хребет (смотровая)",
+        coords: [43.949398, 42.7257565],
+        kind: "route",
+        note: "Видовая точка Боргустанского хребта для завершающей части маршрута Спящей красавицы.",
+        routeType: "Смотровая точка",
+        visitTime: "30-45 мин",
+        bestTime: "Ближе к закату",
+        dayHint: "Маршрут Спящая красавица",
+        photos: [
+          "https://static-maps.yandex.ru/1.x/?ll=42.7257565,43.949398&z=12&size=520,290&l=map&pt=42.7257565,43.949398,pm2blm",
+          "https://static-maps.yandex.ru/1.x/?ll=42.7257565,43.949398&z=11&size=520,290&l=sat&pt=42.7257565,43.949398,pm2blm",
+          "https://static-maps.yandex.ru/1.x/?ll=42.7257565,43.949398&z=13&size=520,290&l=sat,skl&pt=42.7257565,43.949398,pm2blm"
         ]
       }
     ],
@@ -762,6 +942,49 @@ const cityRouteTracks = {
         "Скала Человек",
         "Долина роз"
       ]
+    },
+    {
+      id: "kisl-route-4",
+      title: "Маршрут №4: Березовская балка и Золотые водопады",
+      length: "до 26 км (туда-обратно)",
+      duration: "6-8 часов",
+      difficulty: "Средний",
+      color: "#16a34a",
+      pointNames: [
+        "Вход в Березовскую балку (Березовская, 34)",
+        "Березовское ущелье (верхний участок)",
+        "Березовское ущелье (средний участок)",
+        "Элькуш (старт альтернативного спуска)",
+        "Кичи-Балык (дорога к водопадам)"
+      ]
+    },
+    {
+      id: "kisl-route-5",
+      title: "Маршрут №5: Ольховская балка (Лермонтовские места)",
+      length: "до 10 км",
+      duration: "3-4 часа",
+      difficulty: "Легкий",
+      color: "#7c3aed",
+      pointNames: [
+        "Посёлок Нарзанный",
+        "Лермонтовская скала",
+        "Лермонтовский водопад",
+        "Беседка \"Стеклянная струя\""
+      ]
+    },
+    {
+      id: "kisl-route-6",
+      title: "Маршрут №6: Спящая красавица и Подкумский провал",
+      length: "8-12 км",
+      duration: "4-6 часов",
+      difficulty: "Средний",
+      color: "#ca8a04",
+      pointNames: [
+        "Станция Подкумок",
+        "Пещера Подкумский провал",
+        "Боргустанский хребет (смотровая)",
+        "Станция Подкумок"
+      ]
     }
   ]
 };
@@ -936,7 +1159,12 @@ function getCityRouteTracks(cityKey) {
 
 function setDefaultRouteTrackSelection(cityKey) {
   const tracks = getCityRouteTracks(cityKey);
-  activeRouteTrackIds = new Set(tracks.map((track) => track.id));
+  if (tracks.length === 0) {
+    activeRouteTrackIds = new Set();
+    return;
+  }
+
+  activeRouteTrackIds = new Set();
 }
 
 function getCoordsByPlaceName(city) {
